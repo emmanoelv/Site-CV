@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Currículo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Emmanoel Victor -  @emmanoel.v</h1>
+    <button id="theme-switcher" onclick="toggleTheme()">🌙</button>
+  </header>
+  
+  <main>
+    <!-- Seção de Sobre Mim -->
+    <section>
+      <button class="toggle-btn" onclick="toggleSection('sobre-mim')">Sobre Mim</button>
+      <div id="sobre-mim" class="hidden-content">
+        <p>Apresento boas habilidades de organização, atenção e
+          capacidade de aprendizado rápido.
+          Sou estudante de Ciência e Tecnologia na Universidade Federal Rural do Semi Arido, moro no municipío de Mossoró, 
+          atualmente focado no desenvolvimento back-end, especialmente com a linguagem Kotlin. 
+          Tenho experiência prática em alinhamento automotivo, área onde atuei por mais de 2 anos
+          e recentemente comecei a trabalhar como representante de soluções energéticas.
+          Além disso, já desenvolvi um site enquanto aprimorava minhas habilidades em programação, combinando minha paixão por tecnologia com a prática.</p>
+          
+      </div>
+    </section>
+
+    <!-- Seção de Educação -->
+    <section>
+      <button class="toggle-btn" onclick="toggleSection('educação')">Educação</button>
+      <div id="educação" class="hidden-content">
+        <ul>
+          <li>Ensio médio, Abel Freire Coelho, 2016</li>
+          <li>Bacharelando em Ciência e Tecnologia, UFERSA, 2026.2</li>
+          <li>Fundamentos da programação web: HTML, CSS E JAVASCRIPT, ROCKETSEAT, 2023</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Seção de Habilidades -->
+    <section>
+      <button class="toggle-btn" onclick="toggleSection('habilidades')">Habilidades</button>
+      <div id="habilidades" class="hidden-content">
+        
+        <ul>
+          <li>Comunicativo;</li>
+          <li>Organizado;</li>
+          <li>Proativo;</li>
+          <li>Trabalho em equipe;</li>
+        </ul>
+
+
+      </div>
+    </section>
+
+    <!-- Seção da Persona-->
+     <section>
+    <button class="toggle-btn" onclick="toggleSection('persona')">Persona</button>
+    <div id="persona" class="hidden-content">
+      <ul>
+        <li>Emanuel Victor é um jovem profissional com 25 anos, que atualmente trabalha em uma oficina mecânica, realizando tarefas como alinhamento, cambagem, caster e desempeno de eixo. No entanto, ele se sente desmotivado com o seu trabalho atual devido à falta de remuneração por hora extra, mão de obra não remunerada e salário estagnado, o que atrapalha seus estudos.
+
+            Apesar disso, Emanuel possui alguns motivadores, como a equipe e o atendimento ao público, além de estar perto de casa e ter baixo custo de locomoção. Ele também possui habilidades fora de sua função, como identificar defeitos na suspensão.
+            
+            Fora do trabalho, Emanuel gosta de estudar, dormir, jogar e sair. Ele está focado em finalizar sua graduação e buscar aumentar sua renda dentro da área de tecnologia. Possui conhecimento em lógica de programação e linguagens como Kotlin, JavaScript, Java e Python.
+            
+            Emanuel está buscando uma vaga de programador e também está interessado em aprender sobre vendas. Ele possui um perfil atualizado no LinkedIn e está pronto para uma mudança.
+            
+            O ponto de mudança surge quando Emanuel recebe uma oportunidade de trabalhar no nicho solar online, com ajuda de custo de R$ 500 por mês, além de comissão por venda feita de 3%. Isso pode ser o início de uma nova jornada para Emanuel, onde ele pode combinar sua paixão por tecnologia com uma carreira mais promissora.
+            
+            Com sua rapidez em aprender, flexibilidade de horário e habilidades em programação, Emanuel está preparado para enfrentar novos desafios e alcançar seus objetivos. No entanto, ele precisa superar sua falta de segurança de decisão, medo do "sim" temporário e dificuldade de mudança de opinião para alcançar o sucesso.</li>
+        
+      </ul>
+    </div>
+</section>
+
+     <!-- Seção de Contato -->
+     <section>
+        <button class="toggle-btn" onclick="toggleSection('contato')">Contato</button>
+        <div id="contato" class="hidden-content">
+          <ul>
+            <li>Número e Whatsapp: 84 9 94256720</li>
+            <li>Email: emmanoel.victor@hotmail.com</li>
+            <a href="https://www.linkedin.com/in/emmanoel-victor-9836621a2/" target="_blank" rel="noopener noreferrer">
+               <li> Meu LinkedIn </li>
+              </a>.
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Baixar Currículo</h2>
+        <a href="CV_Emmanoel_Victor.pdf" target="_blank" download>
+          Baixar Meu Currículo (PDF)
+        </a>
+      </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2024 - Meu Currículo. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
